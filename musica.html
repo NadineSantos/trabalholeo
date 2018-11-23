@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html language ="pt-br">
+<meta charset = "UTF-8">
+<head>
+	<title> Quiz do Conhecimento</title>
+	<link rel="stylesheet" type="text/css" href="conhecimento.css">
+</head>
+<body>
+	<h1> Bem vindo ao Quiz de musica</h1>	
+	<h2> Pronto para testar o seu ouvido?</h2>
+	<h3> Let's Hears!!!</h3>
+
+<p id = "p1"> Primeiro Desafio:</p>
+	
+	<p id ="p2">Qual é a música?</p>
+		<audio controls src="musica.mp3" >
+   		 <source src="musica.ogg" type="audio/ogg">
+    		<source src="musica.mp3" type="audio/mpeg">
+		</audio>
+		<form action="/pagina-processa-dados-do-quiz" method="post">
+		<div id = "d">
+	 	<input type="radio" name="resposta" value="25"> pitty - Estante, natiruts - , legião urbana - faroeste caboclo <br>
+		<input type="radio" name="resposta" value="23"> Bruno mars - lazy song, Wiz Khalifa - see you again, <br>
+		<input type="radio" name="resposta" value="21"> <br>
+		<input type="radio" name="resposta" value="26"> 26<br>
+		</div>
+			</form>
+	
+<p id = "p3"> Segundo desafio:</p>
+	<p id="p4"> Qual o instrumento?</p>
+		<form action="/pagina-processa-dados-do-quiz" method="post">
+		<div id ="d1">
+		<input type="radio" name="respost" value="sao paulo"> bateria<br>
+		<input type="radio" name="respost" value="brasilia"> guitarra<br>
+		<input type="radio" name="respost" value="recife"> violino <br>
+		<input type="radio" name="respost" value="caruaru"> flauta <br>
+		</div>
+	<input id ="i" type="submit" value="Enviar resposta" /> 
+</body>
+</html>
