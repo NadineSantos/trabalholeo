@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html language ="pt-br">
+<meta charset = "UTF-8">
+<head>
+	<title> Quiz do Transito</title>
+		<link rel="stylesheet" type="text/css" href="transito.css">
+</head>
+<body>
+	<h1> Quiz do Transito</h1>
+
+	<h2> Bem vindo ao quiz sobre transito!! </h2>
+	<div id = "di">
+		<p id ="p1">Primeira Pergunta:</p>
+	  		<p id ="p2">Qual o significado da placa a seguir:</p>
+			<img src ="drawing.svg.png" id ="i" alt ="placa de transito">
+		<div id = "d">
+	 		<input type="radio" id="di" name="resposta" value="direita"> Curva acentuada a esquerda <br>
+			<input type="radio" id ="es" name="resposta" value="esquerda"> vire a esquerda<br>
+			<input type="radio" id ="ci" name="resposta" value="cima"> Vire a direita<br>
+			<input type="radio" id ="ri" name="resposta" value="ba"> Risco de animal na pista<br>
+		</div>
+				<input type="button" id ="u" name="submit"  value="Enviar resposta"  onclick="placa()"/> 
+			</div>	
+
+		<p id ="p3">Assista ao video abaixo e responda de acordo</p>
+	  		
+			<video id ="v" width="320" height="240" controls="controls">
+    				<source src="DomingosFerreira[baixavideos.com.br].mp4" type="video/mp4">
+    				<source src="DomingosFerreira[baixavideos.com.br]o.ogg" type="video/ogg">
+  				  Seu navegador não suporta HTML5.
+			</video>
+				<p id ="p4">Porque o carro parou?</p>
+			
+		<div id = "d1">
+	 		<input type="radio" id ="resp1" name="resposta" value="di"> Porque quebrou <br>
+			<input type="radio" id ="resp2" name="resposta" value="es"> A gasolina acabou<br>
+			<input type="radio" id ="resp3" name="resposta" value="ci"> O sinal estava vermelho<br>
+			<input type="radio" id ="resp4" name="resposta" value="ba"> A rua estava interditada<br>
+		</div>
+				<input type="button" id ="s" name="submit"  value="Enviar resposta"  onclick="sinal()"/> 
+		
+
+
+		
+</body>
+</html>
