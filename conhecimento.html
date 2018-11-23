@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html language ="pt-br">
+<meta charset = "UTF-8">
+<head>
+	<title> Quiz do Conhecimento</title>
+	<link rel="stylesheet" type="text/css" href="conhecimento.css">
+	<script type = "text/javascript" src= "quiz.js"></script>
+</head>
+<body>
+	<h1> Bem vindo ao Quiz do Conhecimento!!!</h1>
+	<h2> Está pronto para se testar? </h2>
+	<h3> Então vamos nessa!!!</h3>
+
+<p id = "p1"> Primeira Pergunta:</p>
+	
+	<p id ="p2">Quantas letras tem o alfabeto?</p>
+		<form action="/pagina-processa-dados-do-quiz" method="post">
+		<div id = "d">
+	 	<input type="radio" id = "resp25" name="resposta" value="25"> 25 <br>
+		<input type="radio" id = "resp23" name="resposta" value="23"> 23<br>
+		<input type="radio" id = "resp21" name="resposta" value="21"> 21<br>
+		<input type="radio" id = "resp26" name="resposta" value="26"> 26<br>
+		</div>
+
+	<input type="button" id ="u" name="submit"  value="Enviar resposta"  onclick="alfabeto()"/> 
+			</form>
+	
+<p id = "p3"> Segunda Pergunta:</p>
+	<p id="p4"> Qual a capital de Pernambuco?</p>
+		<form action="/pagina-processa-dados-do-quiz" method="post">
+		<div id ="d1">
+		<input type="radio" id="sp" name="respost" value="sao paulo"> São Paulo <br>
+		<input type="radio" id="bras"  name="respost" value="brasilia"> Brasília<br>
+		<input type="radio" id="rec" name="respost" value="recife"> Recife <br>
+		<input type="radio" id="car"  name="respost" value="caruaru"> Caruaru <br>
+		</div>
+
+	<input type="button" id ="i" name="submit"  value="Enviar resposta"  onclick="alfabeto()"/> 
+		</form>
+</body>
+</html>
+
+	
