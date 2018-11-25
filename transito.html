@@ -4,6 +4,7 @@
 <head>
 	<title> Quiz do Transito</title>
 		<link rel="stylesheet" type="text/css" href="transito.css">
+		<script type= "text/javascript" src = "quiz.js"></script>
 </head>
 <body>
 	<h1> Quiz do Transito</h1>
@@ -14,10 +15,10 @@
 	  		<p id ="p2">Qual o significado da placa a seguir:</p>
 			<img src ="drawing.svg.png" id ="i" alt ="placa de transito">
 		<div id = "d">
-	 		<input type="radio" id="di" name="resposta" value="direita"> Curva acentuada a esquerda <br>
-			<input type="radio" id ="es" name="resposta" value="esquerda"> vire a esquerda<br>
-			<input type="radio" id ="ci" name="resposta" value="cima"> Vire a direita<br>
-			<input type="radio" id ="ri" name="resposta" value="ba"> Risco de animal na pista<br>
+	 		<input type="radio" id="dir" name="resposta" value="direita"> <label for="dir"> Curva acentuada a esquerda </label></input> <br>
+			<input type="radio" id ="es" name="resposta" value="esquerda"><label for="es"> vire a esquerda</label></input><br>
+			<input type="radio" id ="ci" name="resposta" value="cima"><label for="ci"> Vire a direita</label></input><br>
+			<input type="radio" id ="ri" name="resposta" value="ba"><label for="ri"> Risco de animal na pista</label></input><br>
 		</div>
 				<input type="button" id ="u" name="submit"  value="Enviar resposta"  onclick="placa()"/> 
 			</div>	
@@ -32,10 +33,10 @@
 				<p id ="p4">Porque o carro parou?</p>
 			
 		<div id = "d1">
-	 		<input type="radio" id ="resp1" name="resposta" value="di"> Porque quebrou <br>
-			<input type="radio" id ="resp2" name="resposta" value="es"> A gasolina acabou<br>
-			<input type="radio" id ="resp3" name="resposta" value="ci"> O sinal estava vermelho<br>
-			<input type="radio" id ="resp4" name="resposta" value="ba"> A rua estava interditada<br>
+	 		<input type="radio" id ="resp1" name="resposta" value="di"><label for="resp1"> Porque quebrou </label></input><br>
+			<input type="radio" id ="resp2" name="resposta" value="es"><label for="resp2"> A gasolina acabou</label></input><br>
+			<input type="radio" id ="resp3" name="resposta" value="ci"><label for="resp3"> O sinal estava vermelho</label></input><br>
+			<input type="radio" id ="resp4" name="resposta" value="ba"><label for="resp4"> A rua estava interditada</label></input><br>
 		</div>
 				<input type="button" id ="s" name="submit"  value="Enviar resposta"  onclick="sinal()"/> 
 		

@@ -16,10 +16,10 @@
 	<p id ="p2">Quantas letras tem o alfabeto?</p>
 		<form action="/pagina-processa-dados-do-quiz" method="post">
 		<div id = "d">
-	 	<input type="radio" id = "resp25" name="resposta" value="25"> 25 <br>
-		<input type="radio" id = "resp23" name="resposta" value="23"> 23<br>
-		<input type="radio" id = "resp21" name="resposta" value="21"> 21<br>
-		<input type="radio" id = "resp26" name="resposta" value="26"> 26<br>
+	 	<input type="radio" id = "resp25" name="resposta" value="25"><label for="resp25"> 25 </label></input><br>
+		<input type="radio" id = "resp23" name="resposta" value="23"><label for="resp23"> 23</label></input><br>
+		<input type="radio" id = "resp21" name="resposta" value="21"><label for="resp21"> 21</label></input><br>
+		<input type="radio" id = "resp26" name="resposta" value="26"><label for="resp26"> 26</label></input><br>
 		</div>
 
 	<input type="button" id ="u" name="submit"  value="Enviar resposta"  onclick="alfabeto()"/> 
@@ -29,13 +29,13 @@
 	<p id="p4"> Qual a capital de Pernambuco?</p>
 		<form action="/pagina-processa-dados-do-quiz" method="post">
 		<div id ="d1">
-		<input type="radio" id="sp" name="respost" value="sao paulo"> São Paulo <br>
-		<input type="radio" id="bras"  name="respost" value="brasilia"> Brasília<br>
-		<input type="radio" id="rec" name="respost" value="recife"> Recife <br>
-		<input type="radio" id="car"  name="respost" value="caruaru"> Caruaru <br>
+		<input type="radio" id="sp" name="respost" value="sao paulo"><label for="sp"> São Paulo</label></input><br>
+		<input type="radio" id="bras"  name="respost" value="brasilia"><label for="bras"> Brasília</label></input><br>
+		<input type="radio" id="rec" name="respost" value="recife"><label for="rec"> Recife </label></input><br>
+		<input type="radio" id="car"  name="respost" value="caruaru"><label for="car"> Caruaru </label></input><br>
 		</div>
 
-	<input type="button" id ="i" name="submit"  value="Enviar resposta"  onclick="alfabeto()"/> 
+	<input type="button" id ="i" name="submit"  value="Enviar resposta"  onclick="capital()"/> 
 		</form>
 </body>
 </html>

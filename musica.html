@@ -4,6 +4,7 @@
 <head>
 	<title> Quiz do Conhecimento</title>
 	<link rel="stylesheet" type="text/css" href="conhecimento.css">
+	<script type = "text/javascript" src = "quiz.js"></script>
 </head>
 <body>
 	<h1> Bem vindo ao Quiz de musica</h1>	
@@ -19,22 +20,23 @@
 		</audio>
 		<form action="/pagina-processa-dados-do-quiz" method="post">
 		<div id = "d">
-	 	<input type="radio" name="resposta" value="25"> pitty - Estante, natiruts - , legião urbana - faroeste caboclo <br>
-		<input type="radio" name="resposta" value="23"> Bruno mars - lazy song, Wiz Khalifa - see you again, <br>
-		<input type="radio" name="resposta" value="21"> <br>
-		<input type="radio" name="resposta" value="26"> 26<br>
+	 	<input type="radio" id = "res1" name="resposta" value="25"><label for="res1"> pitty - Estante, natiruts - , legião urbana - faroeste caboclo </label></input><br>
+		<input type="radio" id = "res2" name="resposta" value="23"><label for="res2"> Bruno mars - lazy song, Wiz Khalifa - see you again,</label></input><br>
+		<input type="radio" id = "res3" name="resposta" value="21"><label for="res3"> opção 3</label></input><br>
+		<input type="radio" id = "res4" name="resposta" value="26"><label for="res4"> opção 4</label></input><br>
 		</div>
+		<input type="button" id ="u" name="submit"  value="Enviar resposta"  onclick="musica()"/> 
 			</form>
 	
 <p id = "p3"> Segundo desafio:</p>
 	<p id="p4"> Qual o instrumento?</p>
 		<form action="/pagina-processa-dados-do-quiz" method="post">
 		<div id ="d1">
-		<input type="radio" name="respost" value="sao paulo"> bateria<br>
-		<input type="radio" name="respost" value="brasilia"> guitarra<br>
-		<input type="radio" name="respost" value="recife"> violino <br>
-		<input type="radio" name="respost" value="caruaru"> flauta <br>
+		<input type="radio" id = "bat" name="respost" value="bateria"><label for="bat"> bateria</label></input><br>
+		<input type="radio" id = "gui" name="respost" value="guitarra"><label for="gui"> guitarra</label></input><br>
+		<input type="radio" id = "vio" name="respost" value="violino"><label for="vio"> violino</label></input><br>
+		<input type="radio" id = "fla" name="respost" value="flauta"><label for="fla"> flauta </label></input><br>
 		</div>
-	<input id ="i" type="submit" value="Enviar resposta" /> 
+	<input type="button" id ="u" name="submit"  value="Enviar resposta"  onclick="instrumento()"/>
 </body>
 </html>

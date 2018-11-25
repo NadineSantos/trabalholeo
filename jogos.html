@@ -5,7 +5,7 @@
 	<title> Quiz de Jogo</title>
 	<link rel="stylesheet" type="text/css" href="jogos.css">
 	<script src="js/jquery-1.5.2.min.js"></script>
-        <script src="jogos.js"></script>
+        <script type = "text/javascript" src="quiz.js"></script>
 </head>
 <body>
 	 
@@ -18,10 +18,12 @@
 	<p id ="p2">Quantos erros você vê na figura:</p>
 		<form action="/pagina-processa-dados-do-quiz" method="post">
 		<div id = "d">
-	 	<input type="radio" name="resposta" value="4"> 4 <br>
-		<input type="radio" name="resposta" value="10"> 10<br>
-		<input type="radio" name="resposta" value="7"> 7<br>
-		<input type="radio" name="resposta" value="8"> 8<br>
+	 	<input type="radio" id = "4" name="resposta" value="4"><label for="4"> 4 </label></input><br>
+		<input type="radio" id = "10" name="resposta" value="10"><label for="10"> 10</label></input><br>
+		<input type="radio" id = "7" name="resposta" value="7"><label for="7"> 7</label></input><br>
+		<input type="radio" id = "8" name="resposta" value="8"><label for="8"> 8</label></input><br>
+
+		<input type="button" id ="u" name="submit"  value="Responder"  onclick="jerro()"/>
 		</div>
 			</form>
 	
