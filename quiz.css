@@ -1,0 +1,65 @@
+body{
+	background-color:dodgerblue;
+	
+	
+}
+
+h1{
+	background: mistyrose;
+	font-size: 35px;
+	font-family: verdana;
+	border-radius: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: absolute;
+	left: 43%;
+	top: 5%;
+}
+
+h2{
+	position: absolute;
+	left: 37%;
+	top: 18%;
+	font-family: verdana;
+}
+
+h3{
+	font-family: verdana;
+	position: absolute;
+	left: 25%;
+	top: 25%;
+}
+#od{
+	position: absolute;
+	left: 30%;
+	top: 35%;
+	width: 200px;
+	height: 150px;
+}
+
+#id{
+	position: absolute;
+	left: 50%;
+	top: 35%;
+	height: 150px;
+	width: 200px;
+}
+
+#j{
+	position: absolute;
+	left: 30%;
+	top: 65%;
+	height: 150px;
+	width: 200px;
+}
+
+#m{
+	position: absolute;
+	left: 50%;
+	top: 65%;
+	height: 150px;
+	width: 200px;
+}
+
