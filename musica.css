@@ -4,10 +4,11 @@ body{
 
 
 h1{
+	color: black;	
 	font-size: 35px;
 	font-family: verdana;
 	position: absolute;
-	left: 20%;
+	left: 29%;
 	top: 2%;
 }
 
@@ -21,7 +22,7 @@ h2{
 h3{
 	font-family: verdana;
 	position: absolute;
-	left: 50%;
+	left: 46%;
 	top: 25%;
 }
 
@@ -43,14 +44,14 @@ h3{
 
 #d{
 	position: absolute;
-	top: 50%;
+	top: 52%;
 	left:15%;
 	font-family: verdana;	
 }
 
 #p3{
 	position: absolute;
-	top: 65%;
+	top: 75%;
 	left: 5%;
 	font-family: verdana;
 	font-size: 20px;
@@ -58,29 +59,47 @@ h3{
 
 #p4{
 	position: absolute;
-	top: 67%;
+	top: 80%;
 	left: 15%;
 	font-family: verdana;
 	font-size: 15px;
 }
 
 
-audio{
-	
-	position: relative;
-	width: 200px;
-	height: 25px;
-	left: 45%;
-	top:40%;
 
+#d1{	
+	position: absolute;
+	top: 88%;
+	left:15%;
+	font-family: verdana;	
 }
 
-audio{
-	
-	position: relative;
-	width: 40px;
-	height: 25px;
-	left: 45%;
-	top:40%;
+#u{
+	position: absolute;
+	top: 70%;
+	left:30%;
+}
 
+#i{
+	position: absolute;
+	top: 105%;
+	left:30%;
+}
+
+#au{
+	border: 1px black solid;
+	position: absolute;
+	width: 300px;
+	height: 25px;
+	left: 30%;
+	top: 90%;
+}
+
+#ui{
+	border: 1px black solid;
+	position: absolute;
+	width: 300px;
+	height: 25px;
+	left: 30%;
+	top: 50%;
 }
