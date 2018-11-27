@@ -1,0 +1,86 @@
+body{
+	background-color: mistyrose;
+}
+
+
+h1{
+	font-size: 35px;
+	font-family: verdana;
+	position: absolute;
+	left: 20%;
+	top: 2%;
+}
+
+h2{
+	position: absolute;
+	left: 35%;
+	top: 15%;
+	font-family: verdana;
+}
+
+h3{
+	font-family: verdana;
+	position: absolute;
+	left: 50%;
+	top: 25%;
+}
+
+#p1{
+	position: absolute;
+	top: 35%;
+	left: 5%;
+	font-family: verdana;
+	font-size: 20px;
+}		
+
+#p2{
+	position: absolute;
+	top: 42%;
+	left:15%;
+	font-family: verdana;
+	font-size: 15px;
+}
+
+#d{
+	position: absolute;
+	top: 50%;
+	left:15%;
+	font-family: verdana;	
+}
+
+#p3{
+	position: absolute;
+	top: 65%;
+	left: 5%;
+	font-family: verdana;
+	font-size: 20px;
+}		
+
+#p4{
+	position: absolute;
+	top: 67%;
+	left: 15%;
+	font-family: verdana;
+	font-size: 15px;
+}
+
+
+audio{
+	
+	position: relative;
+	width: 200px;
+	height: 25px;
+	left: 45%;
+	top:40%;
+
+}
+
+audio{
+	
+	position: relative;
+	width: 40px;
+	height: 25px;
+	left: 45%;
+	top:40%;
+
+}
