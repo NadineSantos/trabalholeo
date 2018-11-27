@@ -5,17 +5,27 @@
 	<title> Quiz de Jogo</title>
 	<link rel="stylesheet" type="text/css" href="jogos.css">
 	<script src="js/jquery-1.5.2.min.js"></script>
-        <script type = "text/javascript" src="quiz.js"></script>
+	<script type = "text/javascript" src="quiz.js"></script>
+	
 </head>
 <body>
 	 
+	<audio id ="a" controls autoplay> 		
+		<source src="02_TopGear1000.ogg" type="audio/ogg">
+  		<source src="02_TopGear1000.mp3" type="audio/mpeg">
+	  Your browser does not support the audio element.
+ 	</audio> 	
+	
 	<h1> Bem vindo a nossa pagina de jogos!!!</h1>
 	<h2> Jogos simples e creio que divertidos! </h2>
 	<h3> Let's Play!!!</h3>
 
-<p id = "p1"> Primeiro Jogo:</p>
+<strong><p id = "p1"> Primeiro Jogo:</p></strong>
 	
 	<p id ="p2">Quantos erros você vê na figura:</p>
+
+			<img src = "teste5.jpg" alt = "conhecimento" id = "id">
+			<img src = "teste5.PNG" alt = "conhecimento" id = "ig">
 		<form action="/pagina-processa-dados-do-quiz" method="post">
 		<div id = "d">
 	 	<input type="radio" id = "4" name="resposta" value="4"><label for="4"> 4 </label></input><br>
@@ -23,14 +33,10 @@
 		<input type="radio" id = "7" name="resposta" value="7"><label for="7"> 7</label></input><br>
 		<input type="radio" id = "8" name="resposta" value="8"><label for="8"> 8</label></input><br>
 
-		<input type="button" id ="u" name="submit"  value="Responder"  onclick="jerro()"/>
+		<input type="button" id ="u" name="submit" value="Responder" onclick="jerro()"/>
 		</div>
 			</form>
 	
-<p id = "p3"> Segundo Jogo:</p>
-	<p id="p4"></p>
-		<canvas id="canvas" width="600" height="480">
-            Navegador não suporta HTML5
-        </canvas>
+		
 </body>
 </html>
