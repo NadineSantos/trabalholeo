@@ -3,7 +3,7 @@
 <meta charset = "UTF-8">
 <head>
 	<title> Quiz do Conhecimento</title>
-	<link rel="stylesheet" type="text/css" href="conhecimento.css">
+	<link rel="stylesheet" type="text/css" href="musica.css">
 	<script type = "text/javascript" src = "quiz.js"></script>
 </head>
 <body>
@@ -14,24 +14,24 @@
 <p id = "p1"> Primeiro Desafio:</p>
 	
 	<p id ="p2">Qual é a música?</p>
-		<<audio controls > 		
+		<audio id ="ui" controls >		
 		<source src="Legião Urbana - Faroeste Caboclo1.ogg" type="audio/ogg">
   		<source src="Legião Urbana - Faroeste Caboclo1.mp3" type="audio/mpeg">
 	  Your browser does not support the audio element.
  	</audio>
 		<form action="/pagina-processa-dados-do-quiz" method="post">
 		<div id = "d">
-	 	<input type="radio" id = "res1" name="resposta" value="25"><label for="res1"> pitty - Estante, natiruts - , legião urbana - faroeste caboclo </label></input><br>
-		<input type="radio" id = "res2" name="resposta" value="23"><label for="res2"> Bruno mars - lazy song, Wiz Khalifa - see you again,</label></input><br>
-		<input type="radio" id = "res3" name="resposta" value="21"><label for="res3"> opção 3</label></input><br>
-		<input type="radio" id = "res4" name="resposta" value="26"><label for="res4"> opção 4</label></input><br>
+	 	<input type="radio" id = "res1" name="resposta" value="25"><label for="res1"> Pitty - Estante </label></input><br>
+		<input type="radio" id = "res2" name="resposta" value="23"><label for="res2"> Bruno mars - lazy song</label></input><br>
+		<input type="radio" id = "res3" name="resposta" value="21"><label for="res3"> Roupa Nova - Dona</label></input><br>
+		<input type="radio" id = "res4" name="resposta" value="26"><label for="res4"> Legião Urbana - Faroeste Caboclo</label></input><br>
 		</div>
 		<input type="button" id ="u" name="submit"  value="Enviar resposta"  onclick="musica()"/> 
 			</form>
 	
 <p id = "p3"> Segundo desafio:</p>
 	<p id="p4"> Qual o instrumento?</p>
-		<audio controls > 		
+		<audio id ="au" controls > 		
 		<source src="bateria1.ogg" type="audio/ogg">
   		<source src="bateria1.mp3" type="audio/mpeg">
 	  Your browser does not support the audio element.
