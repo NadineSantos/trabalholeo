@@ -166,7 +166,7 @@ function musica() {
 
 	}
 
-	if(res1.checked){
+	if(res4.checked){
 
 		acertos++;
 
